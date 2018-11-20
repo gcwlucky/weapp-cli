@@ -1,6 +1,6 @@
 {
   "name": "weapp-dev-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "wxapp command line tool, can achieve engineering upload and other functions",
   "main": "index.js",
   "scripts": {

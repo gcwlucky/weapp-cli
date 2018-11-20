@@ -25,7 +25,7 @@ program.usage('<command>')
 // 定义命令
 program.command('o')
     .alias('open')
-    .description('打开工具。可选：-p(项目路径)，如何wa o E:\\work_space\\weapp')
+    .description('打开工具。可选：-p(项目路径)，如wa o E:\\work_space\\weapp')
     .option('-p', '项目路径')
     .action(function () {
         action.open(argv);
