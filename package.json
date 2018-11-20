@@ -1,0 +1,31 @@
+{
+  "name": "weapp-dev-cli",
+  "version": "0.0.1",
+  "description": "wxapp command line tool, can achieve engineering upload and other functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gcwlukcy",
+  "license": "MIT",
+  "bin": {
+    "wa": "./bin/wp-cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcwlucky/weapp-cli.git"
+  },
+  "keywords": [
+    "weapp",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/gcwlucky/weapp-cli/issues"
+  },
+  "homepage": "https://github.com/gcwlucky/weapp-cli#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "execa": "^1.0.0",
+    "yargs": "^12.0.5"
+  }
+}
