@@ -47,7 +47,7 @@ program.command('p')
 
 program.command('u')
     .alias('upload')
-    .description('上传代码。默认按当前时间（yyyyMMddhh）作为版本号，按当前分支最新一条git log作为备注。可选：-v(版本号)，-d(备注)，如wa u v v.1.0.0 d "upload test"')
+    .description('上传代码。默认按当前时间（yyyyMMddhh）作为版本号，按当前分支最新一条git log作为备注。可选：-v(版本号)，-d(备注)，如wa u -v v.1.0.0 -d "upload test"')
     .option('-v', '指定版本号')
     .option('-d', '上传代码时的备注')
     .action(function () {
