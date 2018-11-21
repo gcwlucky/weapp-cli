@@ -31,6 +31,7 @@ function getGitLog() {
 function open(path) {
     let result
     typeof path === 'string' && path.endsWith('\\') && (path = path.substr(0, path.length - 1))
+    path = path === 'pwd' ? process.cwd() : path;
     if(path) {
         result = execa('cli', ['-o', `${path}`])
     }else {
