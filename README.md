@@ -15,7 +15,7 @@ weapp command line tool, can achieve engineering upload and other functions
 
 命令 | 描述 | 选项
 ---|---|---
-wa u | 上传 | 可选：-v(版本号)，-d(备注)，如wa u v v.1.0.0 d "upload test"
+wa u | 上传 | 可选：-v(版本号)，-d(备注)，如wa u v v.1.0.0 d "upload test，默认会按照版本号yyyymmddhh，备注（git log -1 message）"
 wa p | 预览 | 
 wa o | 打开工具 | 
 wa l | 登录工具 | 可选：-p(项目路径)，如wa o pwd（打开当前目录）
